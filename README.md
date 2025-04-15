@@ -1,1 +1,0 @@
-# uml-class-diagram-tutorial
