@@ -3,7 +3,7 @@
 It’s like a blueprint or map of your code — drawn out visually.
 It shows you what classes your system has, what they contain, and how they’re connected.
 
-#### **4 Things It Shows**
+#### **4 Things it shows**
 
 1. Classes → The main building blocks (like Student, Car, Bank)
 2. Attributes → What each class knows (like name, age, balance)
@@ -43,7 +43,7 @@ myDog.bark(); // Woof!
 
 ```
 
-#### **UML Class Notation**
+#### **UML class notation**
 
 UML Class Notation is the way we visually represent a class in a UML (Unified Modeling Language) class diagram. It shows, the class name, It's attributes (variables/state) and It's operations (methods/behavior).
 
@@ -89,7 +89,7 @@ Class in UML for above code
 -----------------------------
 ```
 
-#### **Relationships Between Classes**
+#### **Relationships between classes**
 
 Relationships show how classes interact with each other.
 
@@ -119,6 +119,7 @@ Student --------- Course
 A Student enrolls in a Course.
 
 3. Aggregation
+
 “Has-A (but loosely connected)” relationship. One class contains a collection of other class objects. Parts can exist independently of the whole.
 
 Shown by a solid line with an unfilled diamond at the “whole” side.
@@ -138,6 +139,7 @@ House ◆--------- Room
 A Room cannot exist without a House.
 
 5. Dependency
+
 “Uses temporarily” relationship. A class uses another class as a parameter or inside a method.
 
 Shown with a dashed arrow from user to the used class.
@@ -158,4 +160,16 @@ Shown by a dashed line with a hollow arrowhead.
         Game
 ```
 Game class implements IPlayable interface.
+
+#### **UML multiplicity notations explained**
+
+Understanding UML multiplicity with real-life examples. Here's a simple reference table:
+
+| Notation | Meaning                                | Real-World Example                                      |
+|----------|-----------------------------------------|---------------------------------------------------------|
+| `1`      | Exactly one                             | A person has exactly one birth certificate              |
+| `0..1`   | Zero or one (optional)                  | A person may have one passport, or none                 |
+| `1..*`   | One or more (at least one)              | A library must have at least one book                  |
+| `0..*`   | Zero or more (optional, unlimited)      | A customer can place zero or many orders               |
+| `*`      | Same as `0..*` (many)                   | A playlist can have many songs, or none at all         |
 
