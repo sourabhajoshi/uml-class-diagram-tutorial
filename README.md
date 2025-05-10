@@ -1,6 +1,7 @@
 # UML Class Diagram
 
 It’s like a blueprint or map of your code — drawn out visually.
+
 It shows you what classes your system has, what they contain, and how they’re connected.
 
 #### **4 Things it shows**
